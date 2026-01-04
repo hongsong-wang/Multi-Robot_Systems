@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Paper collected by Wang</title>
+<title>arXiv Papers of Multi-Robot Systems</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 
@@ -15,7 +15,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #fff;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -41,9 +41,8 @@ span#abs{
 }
 </style>
 </head>
-<body>
-
-</p></br></br><div id='section'>Paperid: <span id='pid'>1, <a href='https://arxiv.org/pdf/2512.06838.pdf' target='_blank'>https://arxiv.org/pdf/2512.06838.pdf</a></span>   <span><a href='https://github.com/wang-jh18-SVM/SparseCoop' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Jiahao Wang, Zhongwei Jiang, Wenchao Sun, Jiaru Zhong, Haibao Yu, Yuner Zhang, Chenyang Lu, Chuang Zhang, Lei He, Shaobing Xu, Jianqiang Wang
+<body><div id='title' style='font-size:1.3em; font-weight:bold;'>arXiv Papers of Multi-Robot Systems</div><br>
+<div id='section'>Paperid: <span id='pid'>1, <a href='https://arxiv.org/pdf/2512.06838.pdf' target='_blank'>https://arxiv.org/pdf/2512.06838.pdf</a></span>   <span><a href='https://github.com/wang-jh18-SVM/SparseCoop' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Jiahao Wang, Zhongwei Jiang, Wenchao Sun, Jiaru Zhong, Haibao Yu, Yuner Zhang, Chenyang Lu, Chuang Zhang, Lei He, Shaobing Xu, Jianqiang Wang
 </span></div><div id="title">Title: <a href="https://arxiv.org/html/2512.06838">SparseCoop: Cooperative Perception with Kinematic-Grounded Queries</a></div></span></div><div id = 'abs'>Abstract:</br> <span id = 'abs'>Cooperative perception is critical for autonomous driving, overcoming the inherent limitations of a single vehicle, such as occlusions and constrained fields-of-view. However, current approaches sharing dense Bird's-Eye-View (BEV) features are constrained by quadratically-scaling communication costs and the lack of flexibility and interpretability for precise alignment across asynchronous or disparate viewpoints. While emerging sparse query-based methods offer an alternative, they often suffer from inadequate geometric representations, suboptimal fusion strategies, and training instability. In this paper, we propose SparseCoop, a fully sparse cooperative perception framework for 3D detection and tracking that completely discards intermediate BEV representations. Our framework features a trio of innovations: a kinematic-grounded instance query that uses an explicit state vector with 3D geometry and velocity for precise spatio-temporal alignment; a coarse-to-fine aggregation module for robust fusion; and a cooperative instance denoising task to accelerate and stabilize training. Experiments on V2X-Seq and Griffin datasets show SparseCoop achieves state-of-the-art performance. Notably, it delivers this with superior computational efficiency, low transmission cost, and strong robustness to communication latency. Code is available at https://github.com/wang-jh18-SVM/SparseCoop.
 <div id='section'>Paperid: <span id='pid'>2, <a href='https://arxiv.org/pdf/2512.01850.pdf' target='_blank'>https://arxiv.org/pdf/2512.01850.pdf</a></span>   <span><a href='https://github.com/PRBonn/RAP' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Yue Pan, Tao Sun, Liyuan Zhu, Lucas Nunes, Iro Armeni, Jens Behley, Cyrill Stachniss
 </span></div><div id="title">Title: <a href="https://arxiv.org/html/2512.01850">Register Any Point: Scaling 3D Point Cloud Registration by Flow Matching</a></div></span></div><div id = 'abs'>Abstract:</br> <span id = 'abs'>Point cloud registration aligns multiple unposed point clouds into a common frame, and is a core step for 3D reconstruction and robot localization. In this work, we cast registration as conditional generation: a learned continuous, point-wise velocity field transports noisy points to a registered scene, from which the pose of each view is recovered. Unlike previous methods that conduct correspondence matching to estimate the transformation between a pair of point clouds and then optimize the pairwise transformations to realize multi-view registration, our model directly generates the registered point cloud. With a lightweight local feature extractor and test-time rigidity enforcement, our approach achieves state-of-the-art results on pairwise and multi-view registration benchmarks, particularly with low overlap, and generalizes across scales and sensor modalities. It further supports downstream tasks including relocalization, multi-robot SLAM, and multi-session map merging. Source code available at: https://github.com/PRBonn/RAP.
